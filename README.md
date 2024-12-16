@@ -5,20 +5,20 @@
 
 An under 500 lines of code prototype **Threads Siege** made for a subject in uni, an arcade-style space defense game built with **Java Swing**. Players use their spaceship cannon to shoot down incoming alien enemies while avoiding letting too many enemies slip through.  
 
-![Gameplay Screenshot](assets/gameplay_screenshot.png)
-_**Screenshot 1.** Gameplay Screenshot_
+![Gameplay Screenshot](assets/gameplay-screenshot.png)
+_**Screenshot 1.** Gameplay Screenshot (UI in Ukrainian)_
 
-⚠️ **Expect bugs and unpolished gameplay.** Contributions, feedback, and suggestions are highly welcome to help refine this game.  
+⚠️ **Expect bugs and unpolished gameplay.** Contributions, feedback, and suggestions are welcome to help refine this game.  
 
 ---
 
 ## Features 🌟  
 
-- **Multithreaded Mechanics**: Each enemy and bullet runs independently on its own thread, allowing real-time movement and interaction.  
+- **Multithreaded Mechanics**: Each enemy and bullet runs independently on its thread, allowing real-time movement and interaction.  
 - **Dynamic Difficulty Adjustment**: The number of active enemies and their spawn rate automatically increase as the game progresses, based on the player's score and elapsed time.  
 - **Collision-Based Scoring**: Bullets destroy enemies on contact, incrementing the score while missed enemies contribute to the game-over counter.  
 - **Limited Ammo**: Players can have only three active bullets at a time, managed using a semaphore for concurrency control.  
-- **Game State Feedback**: The UI dynamically updates to reflect the player's score and missed enemies, with win/lose conditions displayed at game end.  
+- **Game State Feedback**: The UI dynamically updates to reflect the player's score and missed enemies, with win/lose conditions displayed at the game end.  
 
 ---
 
