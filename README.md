@@ -5,7 +5,7 @@
 
 An under 500 lines of code prototype **Threads Siege** made for a subject in uni, an arcade-style space defense game built with **Java Swing**. Players use their spaceship cannon to shoot down incoming alien enemies while avoiding letting too many enemies slip through.  
 
-![Gameplay Screenshot](assets/gameplay-screenshot.png)
+![Gameplay Screenshot](assets/gameplay-screenshot.png)  
 _**Screenshot 1.** Gameplay Screenshot (UI in Ukrainian)_
 
 ⚠️ **Expect bugs and unpolished gameplay.** Contributions, feedback, and suggestions are welcome to help refine this game.  
